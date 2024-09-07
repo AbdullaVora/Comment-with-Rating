@@ -5,7 +5,7 @@ import { FaStar } from 'react-icons/fa';
 const Form = () => {
     const [input, setInput] = useState({});
     const [formData, setFormData] = useState([]);
-    const [rating, setRating] = useState(0); // State to manage the rating value
+    const [rating, setRating] = useState(0); 
 
     useEffect(() => {
         const oldData = JSON.parse(localStorage.getItem('FormData'));
