@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Input from '../components/input';
+import Input from './input';
 import { FaStar } from 'react-icons/fa';
 
 const Form = () => {
